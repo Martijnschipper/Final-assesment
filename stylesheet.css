@@ -1,0 +1,297 @@
+
+@font-face{
+  font-family: Abel;
+  src: url(../fonts/Abel/Abel-Regular.ttf);
+}
+
+@font-face{
+	font-family: Archivo;
+	src: url(../fonts/Archivo_Narrow/ArchivoNarrow-Italic.ttf);
+	}
+	
+
+
+body {
+   width: 100%;
+   height: 100%;
+}
+/*home*/
+.menu{
+	display: grid;
+	list-style: none;	  
+	background-color: #68C3D4; opacity: 0.6; 
+	position: fixed;
+	margin-top: 0.1%;
+	overflow: hidden;
+	align-items: center;
+	text-decoration: none;
+	text-transform: none;
+	width: 100%;
+	height: 10%;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: auto;
+	text-align: center;
+	font-family:"Abel", arial, georgia, serif;
+	font-size: 1.4em;
+	z-index: 5;
+}
+
+.linkmenu{
+		text-decoration: none;
+		text-transform: none;
+		font-family:"Abel", arial, georgia, serif;
+		font-size: 1.4em;
+		color: #FFFFFF;	
+}
+
+.linkdebuurt{
+		text-decoration: none;
+		text-transform: none;
+		font-family:"Abel", arial, georgia, serif;
+		font-size: 1.4em;
+		color: #FFFFFF;	
+}
+
+.sportlink{
+		text-decoration: none;
+		text-transform: none;
+		font-family:"Abel", arial, georgia, serif;
+		font-size: 1.4em;
+		color: #FFFFFF;	
+}
+
+.contactlink{
+		text-decoration: none;
+		text-transform: none;
+		font-family:"Abel", arial, georgia, serif;
+		font-size: 1.4em;
+		color: #FFFFFF;	
+}
+
+
+.homemenu:hover{
+		grid-column: 1;
+		background-color: #C8D5B9;
+}
+
+.debuurtnav:hover{
+		grid-column: 2;
+		background-color: #C8D5B9;		
+}
+
+.sportnav:hover{
+		grid-column: 3;
+		background-color: #C8D5B9;
+}
+
+.contactnav:hover{
+		grid-column: 4;
+		background-color: #C8D5B9;
+}
+
+.headermain{
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	padding-top: 15%;
+	padding-left: 34%;
+	color: #FFFFFF;
+	font-size: 5em;
+	font-family:"Abel", arial, georgia, serif;
+}
+
+.landingpage{
+	background-color: #568EA3;	
+}
+
+.headerpayoff{
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	padding-top: 25%;
+	padding-left: 32%;
+	color: #FFFFFF;
+	font-size: 2em;
+	font-family:"Abel", arial, georgia, serif;
+}
+
+.cookies{
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	padding-top: 55%;
+	padding-left: 85%;
+	color: #FFFFFF;
+	font-size: 1.2em;
+	font-family:"Abel", arial, georgia, serif;
+}
+
+.myVideo{
+	width: 100%;
+	margin-bottom: 0%;
+	padding-bottom: 0%;
+	z-index: -1;
+	background-color: #568EA3;
+}
+
+
+.hout{
+	padding-top: 5%;
+	padding-bottom: 40%;
+	color: #000000;
+	background-color: #568EA3;
+	text-align: center;
+	font-family:"Archivo", arial, georgia, serif;
+}
+
+.judoindehouttext{
+	text-align: center;
+	margin-right: 30%;
+	margin-left: 30%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.tokoimg{
+	margin-left: 20%;
+	margin-top: 5%;	
+	margin-right: 0%;
+	width: 25%;
+	float: left;
+	border-radius: 20%;
+	
+}
+
+.omgevingimg{
+	width: 25%;
+	float: right;
+	margin-top: 10%;
+	margin-right: 20%; 
+	border-radius: 20%;
+}
+
+
+
+.buurt{
+	padding-top: 7%;
+	padding-bottom: 40%;
+	background-color: #FFE8D1;
+	font-family:"Archivo", arial, georgia, serif;
+	text-align: center; 
+}
+
+.textdebuurt{
+	text-align: center;
+	margin-right: 30%;
+	margin-left: 30%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.restaurantdehout{
+	margin-left: 20%;
+	margin-top: 5%;	
+	margin-right: 0%;
+	width: 20%;
+	float: left;
+	border-radius: 20%;
+}
+
+.restaurantdewitte{
+	width: 20%;
+	float: right;
+	margin-top: 10%;
+	margin-right: 20%; 
+	border-radius: 20%;
+}
+/*begin grid */
+.sportclubs{
+	padding-top: 7%;
+	padding-bottom: 5%;
+	background-color: #568EA3;
+	text-align: center;
+	font-family:"Archivo", arial, georgia, serif;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 18% 18% 18% 18% 18%;
+	grid-gap: 2%;
+	padding-bottom: 5%;
+	list-style: none;
+}
+.grid img{
+	align-items: center;
+	border-radius: 19%;
+	width: 100%;	
+}
+
+.textlink{
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+}
+
+.footerlink{
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 2%;
+	text-align: center;
+}
+
+.linkpag{
+	padding-top: 10%;
+	padding-bottom: 10%;
+	width: 100%;
+	background-color: #FFE8D1;
+	font-family:"Archivo", arial, georgia, serif;
+}
+
+.contactpag{
+	padding-top: 5%;
+	width: 100%;
+	background-color: #568EA3;
+	text-align: center;
+	font-family:"Archivo", arial, georgia, serif;
+	
+}
+
+.field{
+	border: 0;
+}
+
+.contacttitle{
+	font-size: 2em;
+}
+
+.voornaam{
+	width: 30%;
+	margin-top: 5%;	
+}
+
+.achternaam{
+	width: 30%;
+	margin-top: 1%;	
+	margin-right: 74%;
+}
+
+.vraag{
+	margin-top: 1%;	
+	margin-left: 3%;
+	margin-right: 72%;
+}
+
+
+.auteur{
+	margin-top: 30%;
+	z-index: 2;
+	color: #444444;
+}
+.contactimg{
+	width: 25%;
+	float: right;
+	margin-right: 38%; 
+	border-radius: 20%;
+	margin-top: -12%;
+}
+
